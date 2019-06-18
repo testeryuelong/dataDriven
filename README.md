@@ -28,7 +28,6 @@ PageObject：每个业务场景对应一个类，利用不同的方法来操作�
   --login_page       # 封装LoginPage类
   
 
-
 ProjectVar：工程路径
 
   --var.py     # 存储工程相关的全局变量
@@ -41,10 +40,9 @@ TestData：测试数据/测试用例
 
 TestScript：运行测试框架的主程序
 
-
-   --runScript.py           # 主程序，操作此脚本
+  --runScript.py           # 主程序，操作此脚本
    
-   --AutoTestLog.py     # 记录运行日志
+  --AutoTestLog.py     # 记录运行日志
    
 
 Util：封装常用的模块
